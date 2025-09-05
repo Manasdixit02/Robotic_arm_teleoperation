@@ -11,8 +11,12 @@ setup.py
 controller/__init__.py
 controller/controller_node.py
 controller/sender.py
+controller.egg-info/PKG-INFO
+controller.egg-info/SOURCES.txt
+controller.egg-info/dependency_links.txt
+controller.egg-info/entry_points.txt
+controller.egg-info/requires.txt
+controller.egg-info/top_level.txt
+controller.egg-info/zip-safe
 launch/controller_launch.py
 resource/controller
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

@@ -20,7 +20,7 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': ['controller_node = controller.controller_node:main'
+        'console_scripts': ['controller_node = controller.controller_node:main', 'sender_node = controller.sender:main',
         ],
     },
 )

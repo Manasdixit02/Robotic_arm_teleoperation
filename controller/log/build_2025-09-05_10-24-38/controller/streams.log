@@ -1,0 +1,20 @@
+[0.488s] Invoking command in '/home/manas/Robotic_arm_teleop/controller/build/controller': PYTHONPATH=/home/manas/Robotic_arm_teleop/controller/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manas/Robotic_arm_teleop/controller/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manas/Robotic_arm_teleop/controller/build/controller/build --no-deps symlink_data --force
+[0.673s] running develop
+[0.782s] running egg_info
+[0.782s] writing controller.egg-info/PKG-INFO
+[0.782s] writing dependency_links to controller.egg-info/dependency_links.txt
+[0.782s] writing entry points to controller.egg-info/entry_points.txt
+[0.782s] writing requirements to controller.egg-info/requires.txt
+[0.782s] writing top-level names to controller.egg-info/top_level.txt
+[0.783s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[0.784s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[0.785s] running build_ext
+[0.785s] Creating /home/manas/Robotic_arm_teleop/controller/install/controller/lib/python3.10/site-packages/controller.egg-link (link to .)
+[0.785s] Installing controller_node script to /home/manas/Robotic_arm_teleop/controller/install/controller/lib/controller
+[0.785s] 
+[0.785s] Installed /home/manas/Robotic_arm_teleop/controller/build/controller
+[0.786s] running symlink_data
+[0.786s] symbolically linking /home/manas/Robotic_arm_teleop/controller/build/controller/resource/controller -> /home/manas/Robotic_arm_teleop/controller/install/controller/share/ament_index/resource_index/packages
+[0.786s] symbolically linking /home/manas/Robotic_arm_teleop/controller/build/controller/package.xml -> /home/manas/Robotic_arm_teleop/controller/install/controller/share/controller
+[0.786s] symbolically linking /home/manas/Robotic_arm_teleop/controller/build/controller/launch/controller_launch.py -> /home/manas/Robotic_arm_teleop/controller/install/controller/share/controller/launch
+[0.803s] Invoked command in '/home/manas/Robotic_arm_teleop/controller/build/controller' returned '0': PYTHONPATH=/home/manas/Robotic_arm_teleop/controller/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manas/Robotic_arm_teleop/controller/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manas/Robotic_arm_teleop/controller/build/controller/build --no-deps symlink_data --force

@@ -1,26 +1,32 @@
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String
 import serial
-import time
 
-# Initialize serial once when the module is imported
-# Adjust the port and baudrate according to your hardware
-try:
-    ser = serial.Serial('/dev/ttyACM0', 115200, timeout=1)
-    time.sleep(2)  # Wait for Arduino to reset
-except serial.SerialException as e:
-    ser = None
-    print(f"[sender] Serial connection failed: {e}")
+class ArduinoBridge(Node):
+    def __init__(self):
+        super().__init__('arduino_bridge')
+        self.subscription = self.create_subscription(
+            String,
+            'arduino_cmd',
+            self.listener_callback,
+            10)
+        # Update the port below to match your Arduino (e.g., /dev/ttyACM0 or /dev/ttyUSB0)
+        self.ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
 
-def send_command(direction, n_steps):
-    if ser is None or not ser.is_open:
-        print("[sender] Serial not connected.")
-        return
+    def listener_callback(self, msg):
+        self.ser.write((msg.data + '\n').encode())
+        self.get_logger().info(f"Sent to Arduino serial: {msg.data}")
 
-    # Format the message however your Arduino expects it
-    # Example format: "D:1,S:100\n" (D = direction, S = steps)
-    msg = f"D:{direction},S:{n_steps}\n"
+def main(args=None):
+    rclpy.init(args=args)
+    node = ArduinoBridge()
     try:
-        ser.write(msg.encode('utf-8'))
-        print(f"[sender] Sent: {msg.strip()}")
-    except serial.SerialException as e:
-        print(f"[sender] Failed to send: {e}")
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    node.destroy_node()
+    rclpy.shutdown()
 
+if __name__ == '__main__':
+    main()

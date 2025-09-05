@@ -1,3 +1,4 @@
 [console_scripts]
 controller_node = controller.controller_node:main
+sender_node = controller.sender:main
 

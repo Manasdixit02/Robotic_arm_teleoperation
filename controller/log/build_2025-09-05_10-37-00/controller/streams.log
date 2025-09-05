@@ -1,0 +1,18 @@
+[0.373s] Invoking command in '/home/manas/Robotic_arm_teleop/controller/build/controller': PYTHONPATH=/home/manas/Robotic_arm_teleop/controller/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manas/Robotic_arm_teleop/controller/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manas/Robotic_arm_teleop/controller/build/controller/build --no-deps symlink_data
+[0.535s] running develop
+[0.623s] running egg_info
+[0.624s] writing controller.egg-info/PKG-INFO
+[0.624s] writing dependency_links to controller.egg-info/dependency_links.txt
+[0.624s] writing entry points to controller.egg-info/entry_points.txt
+[0.624s] writing requirements to controller.egg-info/requires.txt
+[0.624s] writing top-level names to controller.egg-info/top_level.txt
+[0.625s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[0.625s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[0.626s] running build_ext
+[0.626s] Creating /home/manas/Robotic_arm_teleop/controller/install/controller/lib/python3.10/site-packages/controller.egg-link (link to .)
+[0.627s] Installing controller_node script to /home/manas/Robotic_arm_teleop/controller/install/controller/lib/controller
+[0.627s] Installing sender_node script to /home/manas/Robotic_arm_teleop/controller/install/controller/lib/controller
+[0.627s] 
+[0.627s] Installed /home/manas/Robotic_arm_teleop/controller/build/controller
+[0.627s] running symlink_data
+[0.642s] Invoked command in '/home/manas/Robotic_arm_teleop/controller/build/controller' returned '0': PYTHONPATH=/home/manas/Robotic_arm_teleop/controller/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manas/Robotic_arm_teleop/controller/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manas/Robotic_arm_teleop/controller/build/controller/build --no-deps symlink_data
