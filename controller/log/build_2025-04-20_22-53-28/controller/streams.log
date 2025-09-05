@@ -1,0 +1,42 @@
+[0.399s] Invoking command in '/home/manas/controller/src/controller': PYTHONPATH=/home/manas/controller/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manas/controller/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/manas/controller/build/controller/build install --record /home/manas/controller/build/controller/install.log --single-version-externally-managed install_data
+[0.531s] running egg_info
+[0.531s] creating ../../build/controller/controller.egg-info
+[0.531s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[0.531s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[0.531s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[0.532s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[0.532s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[0.532s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[0.532s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[0.532s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[0.533s] running build
+[0.533s] running build_py
+[0.533s] creating /home/manas/controller/build/controller/build
+[0.533s] creating /home/manas/controller/build/controller/build/lib
+[0.533s] creating /home/manas/controller/build/controller/build/lib/controller
+[0.533s] copying controller/sender.py -> /home/manas/controller/build/controller/build/lib/controller
+[0.533s] copying controller/__init__.py -> /home/manas/controller/build/controller/build/lib/controller
+[0.533s] copying controller/controller_node.py -> /home/manas/controller/build/controller/build/lib/controller
+[0.533s] running install
+[0.533s] running install_lib
+[0.533s] creating /home/manas/controller/install/controller/lib/python3.10/site-packages/controller
+[0.534s] copying /home/manas/controller/build/controller/build/lib/controller/sender.py -> /home/manas/controller/install/controller/lib/python3.10/site-packages/controller
+[0.534s] copying /home/manas/controller/build/controller/build/lib/controller/__init__.py -> /home/manas/controller/install/controller/lib/python3.10/site-packages/controller
+[0.534s] copying /home/manas/controller/build/controller/build/lib/controller/controller_node.py -> /home/manas/controller/install/controller/lib/python3.10/site-packages/controller
+[0.534s] byte-compiling /home/manas/controller/install/controller/lib/python3.10/site-packages/controller/sender.py to sender.cpython-310.pyc
+[0.534s] byte-compiling /home/manas/controller/install/controller/lib/python3.10/site-packages/controller/__init__.py to __init__.cpython-310.pyc
+[0.534s] byte-compiling /home/manas/controller/install/controller/lib/python3.10/site-packages/controller/controller_node.py to controller_node.cpython-310.pyc
+[0.534s] running install_data
+[0.534s] creating /home/manas/controller/install/controller/share/ament_index
+[0.534s] creating /home/manas/controller/install/controller/share/ament_index/resource_index
+[0.534s] creating /home/manas/controller/install/controller/share/ament_index/resource_index/packages
+[0.534s] copying resource/controller -> /home/manas/controller/install/controller/share/ament_index/resource_index/packages
+[0.534s] copying package.xml -> /home/manas/controller/install/controller/share/controller
+[0.535s] creating /home/manas/controller/install/controller/share/controller/launch
+[0.535s] copying launch/controller_launch.py -> /home/manas/controller/install/controller/share/controller/launch
+[0.535s] running install_egg_info
+[0.535s] Copying ../../build/controller/controller.egg-info to /home/manas/controller/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info
+[0.536s] running install_scripts
+[0.549s] Installing controller_node script to /home/manas/controller/install/controller/lib/controller
+[0.549s] writing list of installed files to '/home/manas/controller/build/controller/install.log'
+[0.561s] Invoked command in '/home/manas/controller/src/controller' returned '0': PYTHONPATH=/home/manas/controller/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manas/controller/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/manas/controller/build/controller/build install --record /home/manas/controller/build/controller/install.log --single-version-externally-managed install_data
